@@ -11,7 +11,7 @@ import com.lagradost.cloudstream3.utils.AppUtils.toJson
 import org.jsoup.nodes.Element
 
 class MovieHUBProvider : MainAPI() { // all providers must be an instance of MainAPI
-    override var mainUrl = "https://madstream.live"
+    override var mainUrl = "https://madstream.in/"
     override var name = "MadStream"
     override val hasMainPage = true
     override var lang = "ta"
